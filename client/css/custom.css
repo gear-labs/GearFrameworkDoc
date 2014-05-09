@@ -1,0 +1,63 @@
+h1.subchapter-title {
+	color: #680527;
+	font-weight: bold;
+	text-align: center;
+}
+
+.content h2 {
+	color: #3c8dbc;
+	font-weight: bold;
+}
+
+.treeview .submenu {
+	position: relative; /* for treeview .fa.angle */
+}
+
+.treeview .fa.fa-check {
+	display: inline-block;
+	margin-top: 3px;
+	vertical-align: top;
+}
+
+.treeview span,
+.subchapter span {
+	display: inline-block;
+	vertical-align: top;
+	width: 80%;
+}
+
+.treeview .fa.angle {
+	display: inline-block;
+	position: absolute;
+	top: 37%;
+}
+
+.subchapter .fa {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content {
+	font-size: 16px;
+}
+
+/*********************************************************************
+****************************** CONTENIDO **************************
+**********************************************************************/
+span.resaltar {
+	background: #DDD;
+	border-radius: 5px;
+	display: inline-block;
+	font-family: Georgia, sans-serif;
+	padding: 0 5px;
+}
+
+div.gist {
+	font-size: 14px;
+	margin: auto;
+	max-width: 85%;
+}
+
+div.gist .file-data {
+	max-height: 400px;
+}

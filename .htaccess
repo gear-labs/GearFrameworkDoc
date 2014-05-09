@@ -1,0 +1,5 @@
+RewriteEngine On
+DirectoryIndex process.php
+
+RewriteRule ^(\w+)/?$ process.php?action=$1
+RewriteRule ^(\w+)/([\w+\-]+)/?$ process.php?action=$1&subchapter=$2
